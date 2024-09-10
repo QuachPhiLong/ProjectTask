@@ -1,7 +1,8 @@
 # ProjectTask
 Inspired by Trello, Apple Note, ...
 
-# Technologies: SwiftUI, MVVM, SwiftGen, CoreStore
+# Technologies: 
+SwiftUI, MVVM, SwiftGen, CoreStore
 
 
 
