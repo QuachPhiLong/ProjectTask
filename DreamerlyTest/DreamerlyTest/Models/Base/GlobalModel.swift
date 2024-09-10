@@ -10,7 +10,7 @@ import Localize_Swift
 import CoreStore
 
 class GlobalModel: ObservableObject {
-    @Published var languague: String = "vi" {
+    @Published var languague: String = "en" {
         didSet {
             Localize.setCurrentLanguage(languague)
         }

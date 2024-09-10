@@ -92,6 +92,8 @@
 		C3442CB42C90521200505F76 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		C3442CB62C9052CD00505F76 /* UserDefaultWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultWrapper.swift; sourceTree = "<group>"; };
 		C3442CB82C9054FA00505F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C3442CBA2C90C36900505F76 /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
+		C3442CBB2C90C3E400505F76 /* demo_chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_chart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		C32BCCD42C8E8EF6008AB93F /* DreamerlyTest */ = {
 			isa = PBXGroup;
 			children = (
+				C3442CB92C90C09A00505F76 /* Demo */,
 				C3442CB82C9054FA00505F76 /* Info.plist */,
 				C3442C9E2C90299200505F76 /* CustomView */,
 				C32BCD2E2C8ECDD3008AB93F /* Utils */,
@@ -287,6 +290,15 @@
 				C3442CB22C90502F00505F76 /* LoginViewModel.swift */,
 			);
 			path = LoginView;
+			sourceTree = "<group>";
+		};
+		C3442CB92C90C09A00505F76 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C3442CBB2C90C3E400505F76 /* demo_chart.png */,
+				C3442CBA2C90C36900505F76 /* demo.mp4 */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

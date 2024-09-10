@@ -32,4 +32,7 @@ class TaskCDModel: CoreStoreObject {
     @Field.Stored("taskType")
     var taskType: String?
     
+    @Field.Stored("subtasks")
+    var subtasks: String = ""
+    
 }

@@ -15,7 +15,7 @@ struct HomeView: View {
     @ObservedObject var viewModel: HomeViewModel
     @State private var showSheet = false
     @State private var showChart = false
-    @State private var showToolTip = [false, false]
+    @State private var showToolTip = [true, false]
     @State private var addNewTaskIsDateEnabled: Bool = false
     @State private var addNewTaskSelectedDate: Date = Date()
     @State private var addNewTaskIsRemind: Bool = false
@@ -246,7 +246,7 @@ struct HomeView: View {
                             viewModel.modifiedTask(editingTask)
                         }
                     } else {
-                        viewModel.addTask(TaskModel(title: addNewTaskTitle, id: UUID().uuidString, desc: addNewTaskDescription, status: TaskStatus.convertToStr(selectedTaskStatusIndex), tag: "", date: addNewTaskIsDateEnabled ? addNewTaskSelectedDate : nil, isRemind: addNewTaskIsRemind, taskType: TaskType.convertToStr(selectedTaskTypesIndex)))
+                        viewModel.addTask(TaskModel(title: addNewTaskTitle, id: UUID().uuidString, desc: addNewTaskDescription, status: TaskStatus.convertToStr(selectedTaskStatusIndex), tag: "", date: addNewTaskIsDateEnabled ? addNewTaskSelectedDate : nil, isRemind: addNewTaskIsRemind, taskType: TaskType.convertToStr(selectedTaskTypesIndex), subtasks: ""))
                         setTask()
                     }
                     withAnimation {

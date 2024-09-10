@@ -6,6 +6,7 @@
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="isRemind" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="subtasks" optional="YES" attributeType="String"/>
         <attribute name="tag" optional="YES" attributeType="String"/>
         <attribute name="taskType" optional="YES" attributeType="String"/>
         <attribute name="title" optional="YES" attributeType="String"/>

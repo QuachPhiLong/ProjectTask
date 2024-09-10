@@ -13,9 +13,10 @@ struct TaskModel: Codable {
     var date: Date?
     var isRemind: Bool
     var taskType: String?
+    var subtasks: String
 
     enum CodingKeys: String, CodingKey {
-        case title, id, desc, status, tag, date, isRemind, taskType
+        case title, id, desc, status, tag, date, isRemind, taskType, subtasks
     }
 }
 
