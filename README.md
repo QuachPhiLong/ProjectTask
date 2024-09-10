@@ -19,6 +19,10 @@ SwiftUI, MVVM, SwiftGen, CoreStore
 
 
   ✅ Create a dashboard view showing task statistics (e.g., completed vs. pending tasks).
+    
+
+
+
 
 # Bonus Points (Optional):
 
@@ -41,7 +45,7 @@ SwiftUI, MVVM, SwiftGen, CoreStore
 
   ❌ Implement drag-and-drop functionality for reordering tasks.
 
-  ✅ Add support for subtasks with an expandable/collapsible UI.
+  ❌ Add support for subtasks with an expandable/collapsible UI.
 
 
 
