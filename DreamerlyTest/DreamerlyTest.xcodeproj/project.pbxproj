@@ -127,6 +127,7 @@
 		C32BCCC92C8E8EF6008AB93F = {
 			isa = PBXGroup;
 			children = (
+				C3442CB92C90C09A00505F76 /* Demo */,
 				C32BCCD42C8E8EF6008AB93F /* DreamerlyTest */,
 				C32BCCE62C8E8EF8008AB93F /* DreamerlyTestTests */,
 				C32BCCF02C8E8EF8008AB93F /* DreamerlyTestUITests */,
@@ -147,7 +148,6 @@
 		C32BCCD42C8E8EF6008AB93F /* DreamerlyTest */ = {
 			isa = PBXGroup;
 			children = (
-				C3442CB92C90C09A00505F76 /* Demo */,
 				C3442CB82C9054FA00505F76 /* Info.plist */,
 				C3442C9E2C90299200505F76 /* CustomView */,
 				C32BCD2E2C8ECDD3008AB93F /* Utils */,
