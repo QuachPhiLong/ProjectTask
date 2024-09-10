@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  DreamerlyTest
+
+  Created by Long Quách on 09/09/2024.
+  
+*/
+"home" = "Home";
+"back" = "Back";
+"today" = "Today";
+"toDoList" = "To do list";
+"toDoListEmpty" = "Well done";
+"streamerly" = "Streamerly";
+"addTask" = "Add task";
+"delete" = "Delete";
+"title" = "Title";
+"description" = "Description";
+"addNewTask" = "Add new task";
+"editTask" = "Edit task";
+"save" = "Save";
+"add" = "Add";
+"cancel" = "Cancel";
+"detail" = "Detail";
+"datetime" = "Datetime";
+"addToCalendar" = "Add to calendar";
+"tooltipAddNewTask" = "Tip: Tap here to add new task";
+"tooltipChangeLanguage" = "Tip: Change language here";
+"tagTypeWork" = "Tag";
+"taskTypeWork" = "Work";
+"taskTypePersonal" = "Personal";
+"taskTypeWorkAll" = "All";

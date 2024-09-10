@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  DreamerlyTest
+
+  Created by Long Quách on 09/09/2024.
+  
+*/
+"home" = "Trang chủ";
+"back" = "Trở về";
+"today" = "Hôm nay";
+"toDoList" = "Danh sách công việc";
+"toDoListEmpty" = "Không có việc";
+"streamerly" = "Streamerly";
+"addTask" = "Thêm mới";
+"delete" = "Xoá";
+"title" = "Tiêu đề";
+"description" = "Mô tả";
+"addNewTask" = "Thêm việc mới";
+"editTask" = "Chỉnh sửa công việc";
+"save" = "Lưu lại";
+"add" = "Thêm";
+"cancel" = "Huỷ";
+"detail" = "Chi tiết";
+"datetime" = "Ngày giờ";
+"addToCalendar" = "Thêm vào lịch";
+"tooltipAddNewTask" = "Mẹo: Thêm mới công việc ở đây";
+"tooltipChangeLanguage" = "Mẹo: Thay đổi ngôn ngữ";
+"tagTypeWork" = "Loại";
+"taskTypeWork" = "Công việc";
+"taskTypePersonal" = "Cá nhân";
+"taskTypeWorkAll" = "Tất cả";
